@@ -5,27 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="backgroud"></div>
+  <div class="container">
+    <div class="header">
+      <img class="logo" src="./images/logo.svg" alt="Fylo">
+      <div class="list">
+        <div class="item">
+          <img src="./images/icon-document.svg" alt="Document">
+        </div>
+        <div class="item">
+          <img src="./images/icon-folder.svg" alt="Folders">
+        </div>
+        <div class="item">
+          <img src="./images/icon-upload.svg" alt="Upload">
+        </div>
+      </div>
+    </div>
+    <div class="loading">
+      <div class="box-right">
+        <span><strong>185</strong><span>GB Left</span></span> 
+      </div>
+      <div class="content">
+        <p>
+          You’ve used <strong>815 GB</strong> of your storage
+        </p>
+        <div class="load">
+          <div class="bar">
+            <div class="point">
+            </div>
+          </div>
+        </div>
+        <div class="storage-value">
+          <span>
+            0 GB
+          </span>
+          <span>
+            1000 GB
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
+  
+  <!--
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  -->
 </body>
 </html>
