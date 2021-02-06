@@ -14,3 +14,10 @@ Thanks for checking out this front-end coding challenge.
 - The folder in github of this challenge is in [Fylo data storage component](./challenges/fylo-data_storage_component)
 
 - This challenge is visible in [https://fylo.fm.marconwillian.dev](https://fylo.fm.marconwillian.dev)
+
+### Profile card component
+
+- The folder in github of this challenge is in [Profile card component](./challenges/profile-card-component-main)
+
+- This challenge is visible in [https://profile-card.fm.marconwillian.dev](https://profile-card.fm.marconwillian.dev)
+
