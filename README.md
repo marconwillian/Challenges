@@ -21,3 +21,7 @@ Thanks for checking out this front-end coding challenge.
 
 - This challenge is visible in [https://profile-card.fm.marconwillian.dev](https://profile-card.fm.marconwillian.dev)
 
+# challenges
+Pacote central de desafios. Frontend Mentor.
+<!-- , HackerRank, Coderbyte, Build Dribbble shots, Front-End Challenges Club, CodePen Challenges, 100 Days of CSS Challenge, Daily UI, Frontloops, CSSBattle, Ace Front End, Codier e rendezvous with cassidoo
+-->
